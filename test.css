@@ -1,0 +1,274 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width:1107px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+/* start header */
+nav{
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    position: fixed;
+    background-color: white;
+    height: auto;
+}
+
+header nav img{
+    float: left;
+    margin-top: 20px;
+    padding: 8px 0px;
+}
+header nav ul{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+header nav ul li{
+    display: inline-flex;
+    margin: 10px 20px;
+    
+}
+header nav ul a {
+    text-decoration: none;
+    color: #333;
+    
+}
+.home_info{
+    overflow: hidden;
+    padding-top: 140px;
+    text-align: center;
+    background-color: #FAFAFE;
+}
+.home_info h1{
+    line-height: 50px;
+}
+.home_info p{
+    line-height: 30px;
+    color:#949494 ;
+}
+.search_button {
+    padding-top: 30px;
+} 
+.search_button input{
+    width:350px;
+    padding:10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+}
+.search_button button{
+    width: 100px;
+    color: white;
+    border: 1px solid #FAFAFE;
+    padding: 10px;
+    background-color:#5e2ced;
+    border-radius: 20px;
+}
+.search_button button:hover{
+    background-color: white;
+    color:#5e2ced ;
+    border: 1px solid #5e2ced;
+    transition: 0.5s;
+}
+.banner-image img{
+    width: 100%;
+    vertical-align: middle;
+}
+/* end header */
+
+/* start services */
+.services-are{
+    padding-top: 80px;
+}
+.services-are h1 {
+    text-align: center;
+
+}
+.services-are p{
+    color: #949494;
+    padding-top: 20px;
+}
+.box-container{
+    padding-top: 70px;
+}
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    height: 400px;
+    width:300px;
+    padding: 1.5rem;
+    box-shadow: 0px 3px 10px 0px #d5d5d5;
+    margin: 30px;
+}
+.box h3 {
+    padding-top:30px;
+}
+
+.box p {
+    color:#949494;
+    padding-top:20px;
+}
+.fa-arrow-right {
+    margin-top: 4rem;
+    color: #e1e1e1;
+    margin-left: 10px;
+    font-size: 40px;
+}
+/* end services */
+/* start pricing */
+
+.pricing{
+    background-color: #5e2ced;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.pricing h1{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.pricing h2{
+    float: left;
+    line-height: 40px;
+}
+.pricing button{
+    float:right;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color:#5e2ced ;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.pricing button:hover{
+    color: white;
+    background-color: #5e2ced;
+    transition: 0.5s;
+}
+/* end pricing */
+/* start contact us */
+.contact-us{
+    text-align: center;
+    padding:5rem 0;
+    background-color: #FAFAFA;
+}
+.contact-us p{
+    color:#949494 ;
+    padding:16px 0px;
+}
+.contact-us-form{
+    padding: 32px 0px;
+    overflow: hidden;
+}
+.contact-us-form input{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50px;
+    display: inline-block;
+}
+.contact-us-form button{
+    width: 200px;
+    color: white;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #5e2ced;
+    border: 1px solid #5e2ced;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact-us-form button:hover{
+    background-color: white;
+    color:#5e2ced;
+    transition: 0.6s;
+}
+/* end contacts */
+/* start footer */
+.social{
+    border-top: 1px solid #5e2ced;
+    padding: 80px 0px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+.social ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.social ul li{
+    padding-top: 10px;
+}
+.col{
+    display:inline-block;
+    width: 24%;
+    padding: 0px 20px;
+    height: auto;
+    vertical-align: top;
+
+}
+.col p{
+    color: #949494;
+    padding: 32px 0px;
+    line-height: 25px;
+}
+.col input{
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    min-width: 80px;
+}
+.col button{
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+    padding: 10px;
+    background: #5e2ced;
+    width: 130px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.col button:hover {
+    background:#fff;
+    border:1px solid #5e2ced;
+    color:#5e2ced;
+    transition-duration: 0.5s;
+}
+.col-box{
+    padding-left: 30px;
+}
+.col ul li{
+    line-height: 25px;
+    padding-top:10px;
+}
+.col ul li a{
+    color: #949494;
+}
+.social-links {
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.social-links a{
+    color: #949494;
+}
+.social-links a:nth-child(3), .social-links a:nth-child(4),.social-links a:nth-child(2){ 
+    margin-left: 10px;
+}
